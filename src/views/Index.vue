@@ -2,26 +2,28 @@
   <div>
     <index-navbar />
     <section
-      class="header relative pt-16 items-center flex h-screen max-h-860-px"
+      class="header relative pt-16 items-center flex h-screen max-h-860-px bg-cyan-800"
     >
       <div class="container mx-auto items-center flex flex-wrap">
         <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
           <div class="pt-32 sm:pt-0">
             <h2 class="font-semibold text-4xl text-blueGray-600">
-              Vue Notus - A beautiful extension for Tailwind CSS.
+              Hi there! I'm Giulio
             </h2>
             <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-              Vue Notus is Free and Open Source. It does not change any of the
-              CSS from
-              <a
-                href="https://tailwindcss.com/?ref=creativetim"
-                class="text-blueGray-600"
-                target="_blank"
-              >
-                Tailwind CSS.
-              </a>
-              It features multiple HTML elements and it comes with dynamic
-              components for ReactJS, Vue and Angular.
+              I'm working as a Senior Deveoper at [Sidea Group]
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+              I love to code in PHP, Python
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+              I'm Blockchain passionate
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+              I'm Metaverse & NFT Intersted
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+              He/Him
             </p>
             <div class="mt-12">
               <a
@@ -50,13 +52,13 @@
       />
     </section>
 
-    <section class="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+    <section class="pb-40 relative bg-cyan-700">
       <div
         class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
         style="transform: translateZ(0);"
       >
         <svg
-          class="absolute bottom-0 overflow-hidden"
+          class="absolute bottom-0 overflow-hidden bg-cyan-800"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
           version="1.1"
@@ -65,7 +67,7 @@
           y="0"
         >
           <polygon
-            class="text-blueGray-100 fill-current"
+            class="text-cyan-700 fill-current"
             points="2560 0 2560 100 0 100"
           ></polygon>
         </svg>
@@ -434,91 +436,6 @@
         </div>
       </div>
 
-      <div class="container mx-auto px-4 pb-32 pt-48">
-        <div class="items-center flex flex-wrap">
-          <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
-            <div class="md:pr-12">
-              <div
-                class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
-              >
-                <i class="fas fa-file-alt text-xl"></i>
-              </div>
-              <h3 class="text-3xl font-semibold">
-                Complex Documentation
-              </h3>
-              <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-                This extension comes a lot of fully coded examples that help you
-                get started faster. You can adjust the colors and also the
-                programming language. You can change the text and images and
-                you're good to go.
-              </p>
-              <ul class="list-none mt-6">
-                <li class="py-2">
-                  <div class="flex items-center">
-                    <div>
-                      <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
-                      >
-                        <i class="fas fa-fingerprint"></i>
-                      </span>
-                    </div>
-                    <div>
-                      <h4 class="text-blueGray-500">
-                        Built by Developers for Developers
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="flex items-center">
-                    <div>
-                      <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
-                      >
-                        <i class="fab fa-html5"></i>
-                      </span>
-                    </div>
-                    <div>
-                      <h4 class="text-blueGray-500">
-                        Carefully crafted code for Components
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="flex items-center">
-                    <div>
-                      <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
-                      >
-                        <i class="far fa-paper-plane"></i>
-                      </span>
-                    </div>
-                    <div>
-                      <h4 class="text-blueGray-500">
-                        Dynamic Javascript Components
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-            <img
-              alt="..."
-              class="max-w-full rounded-lg shadow-xl"
-              style="
-                transform: scale(1) perspective(1040px) rotateY(-11deg)
-                  rotateX(2deg) rotate(2deg);
-              "
-              :src="documentation"
-            />
-          </div>
-        </div>
-      </div>
-
       <div class="justify-center text-center flex flex-wrap mt-24">
         <div class="w-full md:w-6/12 px-12 md:px-4">
           <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
@@ -531,7 +448,26 @@
       </div>
     </section>
 
-    <section class="py-20 bg-blueGray-600 overflow-hidden">
+    <section class="py-20 bg-cyan-800 relative">
+      <div
+        class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+        style="transform: translateZ(0);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-cyan-800 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
       <div class="container mx-auto pb-64">
         <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
@@ -582,67 +518,6 @@
       </div>
     </section>
 
-    <section class="pb-16 bg-blueGray-200 relative pt-32">
-      <div
-        class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
-        style="transform: translateZ(0);"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-blueGray-200 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
-
-      <div class="container mx-auto">
-        <div
-          class="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10"
-        >
-          <div class="w-full text-center lg:w-8/12">
-            <p class="text-4xl text-center">
-              <span role="img" aria-label="love">
-                😍
-              </span>
-            </p>
-            <h3 class="font-semibold text-3xl">
-              Do you love this Starter Kit?
-            </h3>
-            <p class="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-              Cause if you do, it can be yours now. Hit the buttons below to
-              navigate to get the Free version for your next project. Build a
-              new web app or give an old project a new look!
-            </p>
-            <div class="sm:block flex flex-col mt-10">
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus?ref=vn-index"
-                target="_blank"
-                class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-emerald-500 active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-              >
-                Get started
-              </a>
-              <a
-                href="https://github.com/creativetimofficial/vue-notus?ref=vn-index"
-                target="_blank"
-                class="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-              >
-                <i class="fab fa-github text-lg mr-1"></i>
-                <span>Help With a Star</span>
-              </a>
-            </div>
-            <div class="text-center mt-16"></div>
-          </div>
-        </div>
-      </div>
-    </section>
     <footer-component />
   </div>
 </template>
